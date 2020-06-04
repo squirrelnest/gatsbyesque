@@ -1,5 +1,12 @@
 import React from "react"
+import Header from "../components/header"
 
 export default function Home() {
-  return <div>Hello fuckface!</div>
+  return ( 
+    <div> 
+      <Header headerText="Hello fuckface. This is a header."/>
+      <p>Much wow. So React.</p>
+      <img src="https://source.unsplash.com/random/400x200" alt="" />
+    </div>
+  )
 }
